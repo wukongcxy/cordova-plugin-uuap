@@ -1,3 +1,7 @@
-/**
- * Created by chenxinyue on 2015/9/16.
- */
+var exec = require('cordova/exec');
+
+module.exports = {
+    uuap: function() {
+        exec(onSuccess, onError, "UUAP", "uuap", []);
+    }
+};
