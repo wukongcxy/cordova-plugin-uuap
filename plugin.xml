@@ -22,7 +22,7 @@
         <engine name="cordova" version=">=3.5.0" />
     </engines>
       <!-- js module-->
-    <js-module src="www/uuap.js" name="UUAP">
+    <js-module src="www/uuap.js" name="com.baidu.plugin.UUAP">
         <clobbers target="UUAP" />
     </js-module>
 
@@ -77,7 +77,7 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="UUAP">
-                <param name="android-package" value="UUAP"/>
+                <param name="android-package" value="com.baidu.plugin.UUAP"/>
             </feature>
         </config-file>
 
