@@ -81,6 +81,6 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/UUAP.java" target-dir="com.baidu.plugin.UUAP" />
+        <source-file src="src/android/UUAP.java" target-dir="src/com/baidu/plugin" />
   </platform>
 </plugin>
