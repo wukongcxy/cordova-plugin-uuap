@@ -22,7 +22,7 @@
         <engine name="cordova" version=">=3.5.0" />
     </engines>
       <!-- js module-->
-    <js-module src="www/uuap.js" name="com.baidu.plugin.UUAP">
+    <js-module src="www/uuap.js" name="UUAP">
         <clobbers target="UUAP" />
     </js-module>
 
@@ -81,6 +81,6 @@
             </feature>
         </config-file>
 
-
+        <source-file src="src/android/UUAP.java" target-dir="com.baidu.plugin.UUAP" />
   </platform>
 </plugin>
