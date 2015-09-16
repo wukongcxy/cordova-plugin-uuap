@@ -13,6 +13,8 @@
     <repo>https://github.com/xu-li/cordova-plugin-uuap</repo>
     <issue>https://github.com/wukongcxy/cordova-plugin-uuap/issues</issue>
 
+
+
     <!-- add this to your config.xml -->
     <!-- <preference name="WECHATAPPID" value="YOUR_WECHAT_APP_ID_HERE" /> -->
     <!--require cordova version -->
